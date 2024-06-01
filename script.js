@@ -43,6 +43,24 @@ const questions = [
       { text: "Wardell Curry", correct: false },
     ],
   },
+  {
+    question: "How many seasons had Kevin Durant played before he joined the Warriors",
+    answers: [
+      { text: "7", correct: false },
+      { text: "8", correct: false},
+      { text: "9", correct: true },
+      { text: "10", correct: false },
+    ],
+  },
+  {
+    question: "What place is Klay Thompson all-time in the most three pointers made list?",
+    answers: [
+      { text: "5th", correct: false },
+      { text: "6th", correct: true},
+      { text: "7th", correct: false },
+      { text: "8th", correct: false },
+    ],
+  },
 ];
 
 startQuiz();
